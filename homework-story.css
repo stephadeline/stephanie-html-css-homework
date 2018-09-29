@@ -2,6 +2,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 62.5%;
   }
+
 article {
     max-width: 620px;
     margin-right: auto;
@@ -17,7 +18,7 @@ p, ol {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', Arial, sans-serif;
 }
 h1 {
     font-size: 2.75rem;
@@ -30,26 +31,29 @@ h2 {
   }
   
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin: 14px 0 8px 0;
   }
+
 h4 {
-    font-size: 1rem;
+    font-size: 1.4rem;
     margin: 15px 0;
 }
 
 .byline, .credit {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .credit {
     text-align: right;
+    margin-top: 0;
 }
 
 blockquote {
     border-left: 4px solid grey;
     padding-left: 20px;
+    margin-left: 30px;
 }
 
 ol {
